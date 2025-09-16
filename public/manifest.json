@@ -1,0 +1,44 @@
+{
+  "name": "Yume - Dream",
+  "short_name": "Yume",
+  "description": "Yume is a calming app designed for anxiety and panic relief, combining guided breathing techniques, grounding exercises, and affirmations in a clean and accessible experience.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0ea5e9",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["health", "lifestyle", "wellness"],
+  "lang": "en",
+  "dir": "ltr",
+  "shortcuts": [
+    {
+      "name": "Breathing Exercise",
+      "short_name": "Breathe",
+      "description": "Quick access to breathing exercises",
+      "url": "/breathing",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "display_override": ["window-controls-overlay", "standalone"],
+  "prefer_related_applications": false
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Yume</string>
+    <string name="title_activity_main">Yume</string>
+    <string name="package_name">com.pedrol2b.yume</string>
+    <string name="custom_url_scheme">com.pedrol2b.yume</string>
+</resources>

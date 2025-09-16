@@ -1,0 +1,28 @@
+export const mantras = [
+  "You're not alone.",
+  'Your feelings are valid.',
+  'You are enough.',
+  "It's okay to feel this way.",
+  'Be gentle with yourself.',
+  "You've made it through before.",
+  'This will pass.',
+  "You're safe.",
+  'You are in control.',
+  'Breathe and let go.',
+  'You are stronger than you know.',
+  'You are exactly where you need to be.',
+  'This moment is temporary.',
+  'You are loved and supported.',
+  'Trust in your ability to heal.',
+  'One breath at a time.',
+  'You have survived 100% of your difficult days.',
+  'Your anxiety does not define you.',
+  'You are capable of handling this.',
+  'You are worthy of peace and calm.',
+  'You are resilient and brave.',
+  'This feeling will fade.',
+  'You choose how to respond.',
+  'You are learning and growing.',
+]
+
+export type Mantra = (typeof mantras)[number]
