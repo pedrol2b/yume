@@ -6,4 +6,5 @@
 .pnp.loader.mjs
 
 /build
+/android
 /src/components/ui
