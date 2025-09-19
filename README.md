@@ -57,7 +57,6 @@ Yume is built as a **Progressive Web App (PWA)** that can be deployed both as a 
 - **Capacitor**: Ionic's native runtime for web apps
 - **Gradle Build System**: Android's official build tools
 - **Signed APKs**: Debug keystore for installable applications
-- **Custom Icons**: Multi-density icon support (mdpi to xxxhdpi)
 - **Java 17**: Modern development environment compatibility
 
 ## 🛠️ Development Setup
@@ -69,7 +68,6 @@ Yume is built as a **Progressive Web App (PWA)** that can be deployed both as a 
 - pnpm (package manager)
 - Java JDK 17
 - Android SDK (for APK builds)
-- ImageMagick (for icon processing)
 ```
 
 ### **Installation**
@@ -96,9 +94,8 @@ npm run deploy:android
 This will:
 1. Build the Next.js application with PWA features
 2. Generate service workers for offline support
-3. Create Android icons in all required densities
-4. Build and sign the Android APK
-5. Output `yume-release.apk` ready for installation
+3. Build and sign the Android APK
+4. Output `yume-release.apk` ready for installation
 
 ### **Step-by-Step Build Process**
 
@@ -114,13 +111,7 @@ npm run apk:setup
 npm run pwa:build
 ```
 
-#### **3. Generate Icons**
-```bash
-# Create Android icons from your icon-512.png
-npm run icons:generate
-```
-
-#### **4. Build APK**
+#### **3. Build APK**
 ```bash
 # Build release APK
 npm run apk:build
@@ -140,7 +131,6 @@ npm run apk:full-build
 | `npm run pwa:build` | Build PWA with service workers |
 | `npm run apk:build` | Build signed release APK |
 | `npm run apk:build-debug` | Build debug APK for testing |
-| `npm run icons:generate` | Generate Android icons from icon-512.png |
 | `npm run android:clean` | Clean build cache |
 | `npm run android:run` | Build and run on Android device |
 
